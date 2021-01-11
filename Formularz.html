@@ -5,17 +5,46 @@
 
 </head>
 <body>
-<h1> Oceń nas </h1>
 <nav>
-    <a href="O_nas.html"> O nas</a> 
-    <a href="Projekty.html"> Projekty </a>
-    <a href="Warsztaty.html"> Warsztaty </a>
-    <a href="Częste_pytania.html"> Częste pytania</a>
-    <a href="Formularz.html"> Ocena strony</a>
+					
+    <ul style="list-style: none" class="bmenu">
+    <table style="width: 100%; table-layout:fixed;">
+    <tr>
+    <th> <li>
+        <a href="O_nas.html"> O nas</a> 
+    </li> </th>
+    <th> <li>
+        <a href="Projekty.html"> Projekty </a>
+    </li></th>
+    <th> <li>
+        <a href="Warsztaty.html"> Warsztaty </a>
+    </li></th>
+    <th> <li>
+        <a href="Częste_pytania.html"> Częste pytania</a>
+    </li></th>
+    <th> <li>
+        <a href="Formularz.html"> Ocena strony</a>
+    </li></th>
+    </tr>
+    </table>
+    </ul>
 </nav>
+<h1> Oceń naszą aplikację </h1> 
 <form> 
-    Imię <input type="text"> 
-    Nazwisko <input type="text"> 
+    Oceń stronę:
+    <input type="radio" name="rank" value="1"> 1
+    <input type="radio" name="rank" value="2"> 2
+    <input type="radio" name="rank" value="3"> 3
+    <input type="radio" name="rank" value="4"> 4
+    <input type="radio" name="rank" value="5"> 5
+    <br/> <br/>
+    Napisz coś więcej: 
+    <textarea name="opinion_text"> </textarea>
+    <br/><br/>
+    Nick: <input type="text" name="guest_nick" required="required"/> <br/><br/>
+    E-mail: <input type="email" name="guest_email" required="required"/> <br/><br/>
+    <input type="submit" value="wyślij"/>
+
 </form>
 </body>
 </html>

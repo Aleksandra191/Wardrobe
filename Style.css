@@ -26,3 +26,10 @@ li a {
 nav {width: 100%;}
 
 h1 {text-align: center;}
+
+form{ margin-left: 120px;} 
+.formularz{float:right; margin-right:800px;}
+
+.przycisk {background-color: DarkSalmon; color: white; margin-left: 330px; width: 100px; height: 40px;}
+
+textarea {width: 170px; resize:none;}
